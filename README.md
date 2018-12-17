@@ -1,24 +1,16 @@
-# README
+## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A sample Rails app for posting Game reviews
 
-Things you may want to cover:
+## Deployment
 
-* Ruby version
+The application has been built using Docker Container.
 
-* System dependencies
+## Challenges Faced
 
-* Configuration
+1. Environment variables within a production ready docker image. I have used them in Heroku\Jenkins.
 
-* Database creation
+2. Should have used Scaffold for quick Turnaround. Given more time to bootstrap, layout and design of the website.
 
-* Database initialization
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
