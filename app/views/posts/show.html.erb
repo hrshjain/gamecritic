@@ -8,3 +8,13 @@
 <p>
   Author Name: <%= @post.author_name %>
 </p>
+
+<hr>
+
+<h3><%= @post.comments.count %> Comments</h3>
+
+<%= render @post.comments %>
+
+<h3>Add a comment</h3>
+
+<%= render 'comments/form' %>
