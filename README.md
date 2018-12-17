@@ -1,16 +1,24 @@
 ## README
 
-A sample Rails app for posting Game reviews
+A sample Rails app for posting Game reviews.
 
-## Deployment
+## Run Application using Docker
 
-The application has been built using Docker Container.
+Run following commands to start the application:
 
-## Challenges Faced
+`docker-compose build`
+`docker-compose run app rails db:create db:migrate db:seed RAILS_ENV=production`
+`docker-compose up`
 
-1. Environment variables within a production ready docker image. I have used them in Heroku\Jenkins.
+## Tasks Pending
+(Pending tasks will be continued in `backlog` branch of the repository)
 
-2. Should have used Scaffold for quick Turnaround. Given more time to bootstrap, layout and design of the website.
+1. Create AdminUser model in rails. Only AdminUser should have be allowed to Add\Update Posts.
+2. SignUp and Login for AdminUser
+3. Design and layout of application using bootstrap\sass. Also, work on Navigation between Pages.
+4. App is running using docker in production. Setting up docker for development is pending.
+5. Should have used Scaffold for quick Turnaround.
+6. Configure Logs produced in production. 
 
 
 
