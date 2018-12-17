@@ -7,7 +7,9 @@ A sample Rails app for posting Game reviews.
 Run following commands to start the application:
 
 `docker-compose build`
+
 `docker-compose run app rails db:create db:migrate db:seed RAILS_ENV=production`
+
 `docker-compose up`
 
 ## Tasks Pending
